@@ -2,7 +2,7 @@
 
 ## 演習
 
-- 第1回（素のLLM）とエージェントの回答の違い：
+- 第1回（素のLLM）とエージェントの回答の違い：第1回の素のLLMでは、質問に対して一般的な知識をもとに回答していた。一方、第3回のエージェントでは、講座で扱われている定義に沿った回答ができる。
 - `--trace` で見えたツール呼び出し（ツール名と引数）：[tool call]   search_glossary({'query': 'LoRA'}), [tool call]   search_glossary({'query': 'QLoRA'})
 - 1つの質問での LLM 呼び出し回数（`requests`）：2
 - 追加したツールと、docstring に書いた説明：
